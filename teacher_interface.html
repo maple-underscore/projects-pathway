@@ -32,6 +32,10 @@
                 color: blue;
                 font-weight: bold;
             }
+            accept {
+                color: green;
+                font-weight: bold;
+            }
         </style>
     </head>
     <body>
@@ -44,7 +48,7 @@
             <!-- New input box and button -->
             <div class="input-section">
                 <input type="text" id="inputBox" placeholder="Add feedback here" />
-                <button id="sendFeedback" onclick="showStudentList()"><buttontext>Send Feedback</buttontext></button>
+                <button id="sendFeedback" onclick="showStudentList()"><accept>Send Feedback</accept></button>
             </div>
 
             <!-- Hidden student list -->
@@ -62,7 +66,7 @@
                     <input type="checkbox" id="student3" value="Student 3">
                     <label for="student3"><tms>Student 3</tms></label>
                 </div>
-                <button onclick="submitFeedback()">Submit Feedback</button>
+                <button onclick="submitFeedback()"><accept>Submit Feedback</accept></button>
             </div>
         </div>
 
