@@ -107,6 +107,7 @@
                 });
                 if (feedback.trim() === '') {
                     alert("Please enter feedback before submitting.");
+                    document.getElementById('inputBox').value = '';
                 } else {
                     if (selectedStudents.length === 0) {
                         alert("No students selected. Please select at least one student.");
@@ -150,7 +151,7 @@
     </style>
     <footer>
         <p>&copy; [insertcompanynamehere].</p>
-        <p>Contact: <a href="mailto:insertemailhere@bsd405.org">Send an Email</a></p>
+        <p>Contact: <a href="mailto:[insertemailhere]@bsd405.org">Send an Email</a></p>
         <p>Version: 1.0.0</p>
         <p>Last Updated: 5/21/2025</p>
     </footer>
